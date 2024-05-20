@@ -1,0 +1,191 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+
+button {
+  border: none;
+}
+#header {
+  padding: 10px 0;
+  border-bottom: 0.2px solid;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header-logo {
+  display: flex;
+  gap: 10px;
+}
+.header nav {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+}
+.header nav select,
+a {
+  border: none;
+  color: black;
+}
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+/*? INFO SECTION start */
+
+#info {
+  padding: 40px 0;
+}
+.info {
+  padding-top: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.info img {
+  width: 600px;
+}
+.info-text {
+  width: 500px;
+}
+.info-text h1 {
+  width: 510px;
+  font-size: 45px;
+  font-weight: 300px;
+}
+.info-text h1 span {
+  color: red;
+}
+.info-text p {
+  gap: 40px;
+  font-size: 20px;
+  margin: 40px 0;
+}
+
+.info-text button {
+  width: 200px;
+  height: 50px;
+  font-size: 16px;
+  padding: 12px 32px;
+  background: red;
+  border-radius: 3px;
+  color: rgb(255, 255, 255);
+}
+/*? info section  end */
+
+/*? about section start */
+#about {
+  background: #e7e7e7;
+}
+.about {
+  padding: 90px;
+}
+.about {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-text h1 {
+  width: 490px;
+  font-size: 34px;
+}
+.about-text h1 span {
+  color: #ee4248;
+}
+
+.about-text p {
+  margin-top: 30px;
+  width: 520px;
+}
+/*? about section end */
+
+/*? PRODUCT SECTION START*/
+#product {
+  padding: 100px 0;
+}
+
+.product h2 {
+  font-size: 40px;
+  text-align: center;
+}
+.product-block {
+  padding: 40px 0;
+  display: flex;
+  justify-content: space-around;
+}
+.product-box h3 {
+  font-size: 28px;
+  color: red;
+  font-weight: 500px;
+}
+.product-box p {
+  line-height: 27px;
+  margin: 20px 0;
+  width: 319px;
+  font-size: 18px;
+  color: #30444e;
+}
+.product-box button {
+  padding: 8px 16px;
+  background: red;
+  color: #fff;
+}
+
+/*? PRODUCT SECTION end*/
+
+/*? CONTACT SECTION START*/
+.contact {
+  padding-bottom: 20px;
+  margin-left: 60px;
+  width: 800px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.contact p {
+  color: #263238;
+}
+
+.contact-left h4 {
+  margin: 40 0 0 0;
+}
+.contact-right h2 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 500px;
+}
+/*? CONTACT SECTION end*/
+
+/*? footer SECTION start*/
+
+#footer {
+  background: red;
+}
+.footer {
+  padding: 20px 0;
+}
+.footer {
+  display: flex;
+  justify-content: center;
+}
+.footer p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #fff;
+}
+
+/*? footer SECTION end*/
